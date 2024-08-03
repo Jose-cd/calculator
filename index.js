@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hello world FROM calc!");
+  console.log("Hello world FROM calculator!");
 });
 
 const calculateCostAndSavings = () => {
