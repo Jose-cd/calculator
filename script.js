@@ -4239,6 +4239,18 @@ document.addEventListener("DOMContentLoaded", () => {
         currentSavingsToggleButton.toLowerCase()
       ];
 
+    const salaries =
+      JobSalaries[currentGroup][currentJobTitle][currentExperience][
+        currentCountry
+      ];
+    const { Median } = salaries;
+
+    let total = Median;
+
+    if (currentSavingsToggleButton === "Annual") {
+      total = Median * 12;
+    }
+
     setCalculatorSavingsValues(
       value.toLocaleString("en-US", {
         style: "currency",
@@ -4247,7 +4259,7 @@ document.addEventListener("DOMContentLoaded", () => {
         maximumFractionDigits: 0,
       }),
       Math.round(Number(percentage)),
-      value.toLocaleString("en-US", {
+      total.toLocaleString("en-US", {
         style: "currency",
         currency: "USD",
         minimumFractionDigits: 0,
