@@ -4118,6 +4118,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const costTalentFee = document.getElementById("calculator-costs-talent-fee");
   const costTotal = document.getElementById("calculator-costs-total");
   const savingsValue = document.getElementById("calculator-savings-value");
+  const savingsCostValue = document.getElementById(
+    "calculator-costs-value-savings"
+  );
 
   function setCalculatorCostsValues(
     total,
@@ -4129,9 +4132,10 @@ document.addEventListener("DOMContentLoaded", () => {
     costCandidatesSalary.innerHTML = `Candidate's salary: ${candidatesSalary}`;
     costTalentFee.innerHTML = `Teilur Talent's fee: ${talentFee}`;
     costTotal.innerHTML = `Total Payment: ${totalPayment}`;
+    savingsCostValue.innerHTML = `${total}`;
   }
   function setCalculatorSavingsValues(savings, savingsPercentage) {
-    savingsValue.innerHTML = `-${savings} / -${savingsPercentage}%`;
+    savingsValue.innerHTML = `${savings} / ${savingsPercentage}%`;
   }
 
   // Calculate costs
