@@ -4132,10 +4132,10 @@ document.addEventListener("DOMContentLoaded", () => {
     costCandidatesSalary.innerHTML = `Candidate's salary: ${candidatesSalary}`;
     costTalentFee.innerHTML = `Teilur Talent's fee: ${talentFee}`;
     costTotal.innerHTML = `Total Payment: ${totalPayment}`;
-    savingsCostValue.innerHTML = `${total}`;
   }
-  function setCalculatorSavingsValues(savings, savingsPercentage) {
+  function setCalculatorSavingsValues(savings, savingsPercentage, totalValue) {
     savingsValue.innerHTML = `${savings} / ${savingsPercentage}%`;
+    savingsCostValue.innerHTML = `${totalValue}`;
   }
 
   // Calculate costs
@@ -4246,7 +4246,13 @@ document.addEventListener("DOMContentLoaded", () => {
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,
       }),
-      Math.round(Number(percentage))
+      Math.round(Number(percentage)),
+      value.toLocaleString("en-US", {
+        style: "currency",
+        currency: "USD",
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      })
     );
   }
 
