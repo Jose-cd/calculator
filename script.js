@@ -4778,15 +4778,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let costSavedByContractingInLatam = USASalary - LATAMMedian;
     let percentageSavedByContractingInLatam = Math.round(
-      (LATAMMedian / USASalary) * 100
+      ((USASalary - LATAMMedian) / USASalary) * 100
     );
 
     if (currentSavingsToggleButton === "Annual") {
       LATAMMedian = LATAMMedian * 12;
       USASalary = USASalary * 12;
-      costSavedByContractingInLatam = costSavedByContractingInLatam * 12;
-      percentageSavedByContractingInLatam =
-        percentageSavedByContractingInLatam * 12;
+
+      costSavedByContractingInLatam = USASalary - LATAMMedian;
+      percentageSavedByContractingInLatam = Math.round(
+        ((USASalary - LATAMMedian) / USASalary) * 100
+      );
     }
 
     setCalculatorSavingsValues(
