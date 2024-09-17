@@ -2091,24 +2091,24 @@ const JobSalaries = {
     "Sales Engineer": {
       "Mid Level": {
         Brazil: {
-          "Lower band": 1375,
-          Median: 1687.5,
-          "Upper band": 2062.5,
+          "Lower band": 3125,
+          Median: 3750,
+          "Upper band": 5000,
         },
         Colombia: {
-          "Lower band": 1125,
-          Median: 1875,
-          "Upper band": 2250,
+          "Lower band": 1875,
+          Median: 2500,
+          "Upper band": 2500,
         },
         Mexico: {
-          "Lower band": 1375,
-          Median: 1687.5,
-          "Upper band": 2062.5,
+          "Lower band": 3125,
+          Median: 3750,
+          "Upper band": 5000,
         },
         Argentina: {
-          "Lower band": 1125,
-          Median: 1875,
-          "Upper band": 2250,
+          "Lower band": 1875,
+          Median: 2500,
+          "Upper band": 2500,
         },
         USA: {
           Median: 6777,
@@ -2116,24 +2116,24 @@ const JobSalaries = {
       },
       "Senior Level": {
         Brazil: {
-          "Lower band": 2062.5,
-          Median: 2625,
-          "Upper band": 3312.5,
+          "Lower band": 5000,
+          Median: 6250,
+          "Upper band": 7500,
         },
         Colombia: {
-          "Lower band": 2000,
-          Median: 2250,
-          "Upper band": 2750,
+          "Lower band": 3125,
+          Median: 5000,
+          "Upper band": 5625,
         },
         Mexico: {
-          "Lower band": 2062.5,
-          Median: 2625,
-          "Upper band": 3312.5,
+          "Lower band": 5000,
+          Median: 6250,
+          "Upper band": 7500,
         },
         Argentina: {
-          "Lower band": 2000,
-          Median: 2250,
-          "Upper band": 2750,
+          "Lower band": 3125,
+          Median: 5000,
+          "Upper band": 5625,
         },
         USA: {
           Median: 9079,
@@ -2141,24 +2141,24 @@ const JobSalaries = {
       },
       "Manager/Director Level": {
         Brazil: {
-          "Lower band": 3312.5,
-          Median: 4000,
-          "Upper band": 4500,
+          "Lower band": 7500,
+          Median: 10000,
+          "Upper band": 12500,
         },
         Colombia: {
-          "Lower band": 2750,
-          Median: 3375,
-          "Upper band": 4000,
+          "Lower band": 5625,
+          Median: 8125,
+          "Upper band": 9375,
         },
         Mexico: {
-          "Lower band": 3312.5,
-          Median: 4000,
-          "Upper band": 4500,
+          "Lower band": 7500,
+          Median: 10000,
+          "Upper band": 12500,
         },
         Argentina: {
-          "Lower band": 2750,
-          Median: 3375,
-          "Upper band": 4000,
+          "Lower band": 5625,
+          Median: 8125,
+          "Upper band": 9375,
         },
         USA: {
           Median: 11588,
@@ -2520,7 +2520,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 5351,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2545,7 +2545,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 12366,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2570,7 +2570,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 13625,
+          Median: 6250,
         },
       },
     },
@@ -2597,7 +2597,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 5351,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2622,7 +2622,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 8867,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2647,7 +2647,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 13127,
+          Median: 6250,
         },
       },
     },
@@ -2674,7 +2674,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 4544,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2699,7 +2699,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 5281,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2724,7 +2724,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 6793,
+          Median: 6250,
         },
       },
     },
@@ -2751,7 +2751,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 6305,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2776,7 +2776,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 8591,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2801,7 +2801,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 10725,
+          Median: 6250,
         },
       },
     },
@@ -2828,7 +2828,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 6325,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2853,7 +2853,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 10675,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2878,7 +2878,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 10901,
+          Median: 6250,
         },
       },
     },
@@ -2905,7 +2905,7 @@ const JobSalaries = {
           "Upper band": 3750,
         },
         USA: {
-          Median: 5582,
+          Median: 3750,
         },
       },
       "Senior Level": {
@@ -2930,7 +2930,7 @@ const JobSalaries = {
           "Upper band": 5000,
         },
         USA: {
-          Median: 6873,
+          Median: 5625,
         },
       },
       "Manager/Director Level": {
@@ -2955,7 +2955,7 @@ const JobSalaries = {
           "Upper band": 6250,
         },
         USA: {
-          Median: 8469,
+          Median: 6250,
         },
       },
     },
@@ -4102,7 +4102,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4112,7 +4112,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4179,7 +4179,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4189,7 +4189,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4256,7 +4256,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4266,7 +4266,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4333,7 +4333,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4343,7 +4343,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4410,7 +4410,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4420,7 +4420,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4487,7 +4487,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4497,7 +4497,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
@@ -4564,7 +4564,7 @@ const JobSalaries = {
       "Senior Level": {
         Brazil: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Colombia: {
@@ -4574,7 +4574,7 @@ const JobSalaries = {
         },
         Mexico: {
           "Lower band": 4375,
-          Median: 5000,
+          Median: 5250,
           "Upper band": 6250,
         },
         Argentina: {
